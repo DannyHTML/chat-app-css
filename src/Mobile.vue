@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-1/2 h-[600px] bg-gradient-to-b from-lightMagenta to-lightViolet rounded-br-full"
+    class="relative w-1/2 h-[600px] md:-left-14 bg-gradient-to-b from-lightMagenta to-lightViolet rounded-br-full md:max-h-[850px] md:w-1/3 md:rounded-br-full md:rounded-bl-full"
   >
     <div
       class="absolute right-0 translate-x-1/2 top-14 w-[280px] h-full bg-white shadow-2xl rounded-3xl"
@@ -81,11 +81,46 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col w-1/2 text-xs ml-2">
-          <div class="rounded-xl p-1 bg-gray-200">
-            <p class="text-chatLeft font-medium text-[10px] ml-1">
-              <button>test</button>
-            </p>
+        <button
+          class="flex items-center justify-between rounded-t-lg ml-2 mb-2 rounded-br-lg w-2/3 h-9 rounded-bl-sm p-1 bg-gradient-to-b from-lightMagenta to-lightViolet"
+        >
+          <div class="flex">
+            <div class="border-2 w-3 h-3 rounded-full ml-2 opacity-75"></div>
+            <div class="">
+              <p class="text-white opacity-75 font-medium text-[10px] ml-2">
+                30 min walk
+              </p>
+            </div>
+          </div>
+          <div><p class="text-white mr-2 font-medium">$29</p></div>
+        </button>
+        <button
+          class="flex items-center mb-4 justify-between rounded-t-lg ml-2 rounded-br-lg w-2/3 h-9 rounded-bl-sm p-1 bg-gradient-to-b from-lightMagenta to-lightViolet"
+        >
+          <div class="flex">
+            <div class="border-2 w-3 h-3 rounded-full ml-2 opacity-75"></div>
+            <div class="">
+              <p class="text-white opacity-75 font-medium text-[10px] ml-2">
+                1 hour walk
+              </p>
+            </div>
+          </div>
+          <div><p class="text-white mr-2 font-medium">$49</p></div>
+        </button>
+        <!-- Input field -->
+        <div class="h-11 pb-4 m-auto">
+          <div class="relative flex items-center">
+            <input
+              class="w-11/12 focus:shadow-lg m-auto pl-4 text-sm h-9 rounded-2xl outline-none"
+              type="text"
+              name="text"
+              placeholder="Type a message..."
+            />
+            <div
+              class="absolute hover:cursor-pointer right-5 flex justify-center items-center p-2 w-6 h-6 rounded-full bg-slate-800"
+            >
+              <img class="" src="/images/icon-next.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -94,5 +129,4 @@
 </template>
 
 <script setup></script>
-
 <style scoped></style>
