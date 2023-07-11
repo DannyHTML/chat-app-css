@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-1/2 h-[500px] bg-gradient-to-b from-lightMagenta to-lightViolet rounded-br-full"
+    class="relative w-1/2 h-[600px] bg-gradient-to-b from-lightMagenta to-lightViolet rounded-br-full"
   >
     <div
       class="absolute right-0 translate-x-1/2 top-14 w-[280px] h-full bg-white shadow-2xl rounded-3xl"
@@ -38,9 +38,7 @@
       <!-- End header -->
 
       <div class="w-11/12 m-auto bg-appBackground rounded-t-lg rounded-b-2xl">
-        <div
-          class="flex flex-col gap-2 w-1/2 text-xs pt-4 ml-2 border border-red-900 mb-4"
-        >
+        <div class="flex flex-col gap-2 w-1/2 text-xs pt-4 ml-2 mb-4">
           <div class="rounded-xl p-1 bg-gray-200">
             <p class="text-chatLeft font-medium text-[10px] ml-1">
               That sounds great. i'd be happy to discuss more.
@@ -52,19 +50,44 @@
             </p>
           </div>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center mb-2">
           <div class="flex gap-2 w-10">
             <img class="rounded-xl" src="/images/dog-image-1.jpg" alt="" />
             <img class="rounded-xl" src="/images/dog-image-2.jpg" alt="" />
             <img class="rounded-xl" src="/images/dog-image-3.jpg" alt="" />
           </div>
         </div>
-        <div class="flex justify-end">
-          <p
-            class="w-1/2 border text-[10px] bg-white text-chatLeft font-medium"
-          >
-            Here are a few pictures. She’s a happy girl!
-          </p>
+        <div class="flex flex-col mb-2">
+          <div class="flex justify-end mb-2">
+            <p
+              class="w-1/2 text-[10px] mr-2 pl-3 p-1 rounded-xl bg-white text-chatLeft font-medium"
+            >
+              Here are a few pictures. She’s a happy girl!
+            </p>
+          </div>
+          <div class="flex justify-end">
+            <p
+              class="w-1/2 text-[10px] mr-2 pl-3 p-1 rounded-xl bg-white text-chatLeft font-medium"
+            >
+              Can you make it?
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2 w-1/2 text-xs ml-2 mb-4">
+          <div class="rounded-xl p-1 bg-gray-200">
+            <p class="text-chatLeft font-medium text-[10px] ml-1">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col w-1/2 text-xs ml-2">
+          <div class="rounded-xl p-1 bg-gray-200">
+            <p class="text-chatLeft font-medium text-[10px] ml-1">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
         </div>
       </div>
     </div>
