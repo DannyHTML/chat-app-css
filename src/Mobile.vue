@@ -84,8 +84,7 @@
         <div class="flex flex-col w-1/2 text-xs ml-2">
           <div class="rounded-xl p-1 bg-gray-200">
             <p class="text-chatLeft font-medium text-[10px] ml-1">
-              She looks so happy! The time we discussed works. How long shall I
-              take her out for?
+              <button>test</button>
             </p>
           </div>
         </div>
