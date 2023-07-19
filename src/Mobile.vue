@@ -25,12 +25,7 @@
             </div>
           </div>
           <div>
-            <div>
-              <font-awesome-icon
-                icon="fa-solid fa-ellipsis-vertical"
-                style="color: #be2d2d"
-              />
-            </div>
+            <div class="text-white">&#8942;</div>
           </div>
         </div>
       </div>
